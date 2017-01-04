@@ -1,0 +1,13 @@
+# Export all names
+exportPattern(".")
+
+# Import all packages listed as Imports or Depends
+import(
+  gtools,
+  methods,
+  utils
+)
+
+importFrom("graphics", "barplot", "hist", "lines", "polygon", "rug")
+importFrom("grDevices", "gray", "rgb")
+importFrom("stats", "NLSstClosestX", "dgamma", "pgamma", "quantile", "rgamma", "rmultinom", "sortedXyData", "uniroot")
